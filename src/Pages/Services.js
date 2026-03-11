@@ -5,8 +5,8 @@ function Services() {
 
   const services = [
     {
-      title: "Website Maintenance",
-      description: "Keep your website secure, updated, and running smoothly.",
+      title: "All Services",
+      description: "Explore all the services that you have enrolled in.",
       icon: <Wrench size={28} />,
       status: "Active"
     },
@@ -17,8 +17,8 @@ function Services() {
       status: "Active"
     },
     {
-      title: "Security Monitoring",
-      description: "24/7 monitoring to protect your platform from threats.",
+      title: "Market Trends",
+      description: "Day-to-day monitoring of market trends to keep you informed.",
       icon: <ShieldCheck size={28} />,
       status: "Pending"
     },
@@ -35,7 +35,7 @@ function Services() {
 
       {/* Page Title */}
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-gray-800">Services</h1>
+        <h1 className="text-2xl font-bold text-[#617BD5]">Services</h1>
         <p className="text-gray-500">Manage and view the services you are subscribed to.</p>
       </div>
 
@@ -50,12 +50,12 @@ function Services() {
           >
 
             {/* Icon */}
-            <div className="text-[#0b7d7b] mb-4">
+            <div className="text-[#455FBF] mb-4">
               {service.icon}
             </div>
 
             {/* Title */}
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
+            <h2 className="text-lg font-semibold text-[#455FBF] mb-2">
               {service.title}
             </h2>
 
@@ -77,7 +77,7 @@ function Services() {
                 {service.status}
               </span>
 
-              <button className="text-sm bg-[#0b7d7b] text-white px-4 py-1 rounded hover:bg-[#096564]">
+              <button className="text-sm bg-[#455FBF] text-white px-4 py-1 rounded hover:bg-[#455FBF] transition duration-300">
                 View
               </button>
 

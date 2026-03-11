@@ -13,7 +13,7 @@ function Home() {
 
           <div
             key={item}
-            className="bg-[#0b7d7b] text-white p-4 rounded-lg shadow"
+            className="bg-[#455FBF] text-white p-4 rounded-lg shadow"
           >
             <h2>{item}</h2>
             <p className="text-2xl font-bold">120</p>

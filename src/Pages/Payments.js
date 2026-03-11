@@ -5,7 +5,7 @@ function Payments() {
   const payments = [
     {
       id: "TXN-1021",
-      service: "Website Maintenance",
+      service: "Total Token Amount",
       amount: "$120",
       date: "12 Mar 2026",
       status: "Paid"
@@ -19,9 +19,9 @@ function Payments() {
     },
     {
       id: "TXN-1017",
-      service: "Security Monitoring",
+      service: "Market Trends",
       amount: "$90",
-      date: "01 Mar 2026",
+      date: "11 Mar 2026",
       status: "Pending"
     }
   ];
@@ -31,7 +31,7 @@ function Payments() {
 
       {/* PAGE TITLE */}
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-gray-800">Payments</h1>
+        <h1 className="text-2xl font-bold text-[#617BD5]">Payments</h1>
         <p className="text-gray-500">View your account balance and payment history.</p>
       </div>
 
@@ -41,7 +41,7 @@ function Payments() {
 
         <div className="bg-white p-6 rounded-xl shadow">
           <h3 className="text-gray-500 text-sm">Account Balance</h3>
-          <p className="text-3xl font-bold text-[#0b7d7b]">$420</p>
+          <p className="text-3xl font-bold text-[#617BD5]">$420</p>
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow">
@@ -50,8 +50,8 @@ function Payments() {
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow">
-          <h3 className="text-gray-500 text-sm">Pending Payments</h3>
-          <p className="text-3xl font-bold text-yellow-500">$90</p>
+          <h3 className="text-gray-500 text-sm">Processing Payments</h3>
+          <p className="text-3xl font-bold text-[#D2A64B]">$90</p>
         </div>
 
       </div>

@@ -6,7 +6,7 @@ function HomeLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex min-h-screen bg-grey-100">
 
       <Sidebar sidebarOpen={sidebarOpen} />
 
@@ -15,7 +15,7 @@ function HomeLayout({ children }) {
         {/* Toggle Button */}
         <button
           onClick={() => setSidebarOpen(!sidebarOpen)}
-          className="mb-4 bg-[#0b7d7b] text-white px-4 py-2 rounded"
+          className="mb-4 bg-[#E6ECFE] text-[#455FBF] px-4 py-2 rounded"
         >
           ☰
         </button>
